@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094B83B2199765FC003BF106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B83B1199765FC003BF106 /* Foundation.framework */; };
+		094B83B4199765FC003BF106 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B83B3199765FC003BF106 /* CoreGraphics.framework */; };
+		094B83B6199765FC003BF106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B83B5199765FC003BF106 /* UIKit.framework */; };
+		094B83BC199765FC003BF106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094B83BA199765FC003BF106 /* InfoPlist.strings */; };
+		094B83BE199765FC003BF106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B83BD199765FC003BF106 /* main.m */; };
+		094B83C2199765FC003BF106 /* PCHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B83C1199765FC003BF106 /* PCHAppDelegate.m */; };
+		094B83C5199765FC003BF106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094B83C3199765FC003BF106 /* Main.storyboard */; };
+		094B83CA199765FC003BF106 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094B83C9199765FC003BF106 /* Images.xcassets */; };
+		094B83D1199765FC003BF106 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B83D0199765FC003BF106 /* XCTest.framework */; };
+		094B83D2199765FC003BF106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B83B1199765FC003BF106 /* Foundation.framework */; };
+		094B83D3199765FC003BF106 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B83B5199765FC003BF106 /* UIKit.framework */; };
+		094B83DB199765FC003BF106 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 094B83D9199765FC003BF106 /* InfoPlist.strings */; };
+		094B83DD199765FC003BF106 /* CirqleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B83DC199765FC003BF106 /* CirqleTests.m */; };
+		096BEAC9199804CC002CA7D3 /* ProximaNova-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 096BEAC8199804CC002CA7D3 /* ProximaNova-Reg.ttf */; };
+		096BEAD41998055F002CA7D3 /* PCHFibonacciMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 096BEACF1998055F002CA7D3 /* PCHFibonacciMath.m */; };
+		096BEAD51998055F002CA7D3 /* PCHFibonacciCell+Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 096BEAD11998055F002CA7D3 /* PCHFibonacciCell+Math.m */; };
+		096BEAD61998055F002CA7D3 /* PCHFibonacciOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 096BEAD31998055F002CA7D3 /* PCHFibonacciOperation.m */; };
+		096BEADC199805E9002CA7D3 /* PCHFibonacciLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 096BEAD9199805E9002CA7D3 /* PCHFibonacciLayout.m */; };
+		096BEADD199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 096BEADB199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.m */; };
+		09FA6A3F1998062800C9D1E3 /* PCHFibonacciCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6A371998062800C9D1E3 /* PCHFibonacciCell.m */; };
+		09FA6A401998062800C9D1E3 /* PCHFibonacciCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6A391998062800C9D1E3 /* PCHFibonacciCellModel.m */; };
+		09FA6A411998062800C9D1E3 /* PCHSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6A3B1998062800C9D1E3 /* PCHSearchCell.m */; };
+		09FA6A421998062800C9D1E3 /* PCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6A3E1998062800C9D1E3 /* PCHViewController.m */; };
+		09FA6A451998260C00C9D1E3 /* PCHFibonacciOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FA6A441998260C00C9D1E3 /* PCHFibonacciOperationQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		094B83D4199765FC003BF106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094B83A6199765FC003BF106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094B83AD199765FC003BF106;
+			remoteInfo = Cirqle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094B83AE199765FC003BF106 /* Cirqle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cirqle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094B83B1199765FC003BF106 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		094B83B3199765FC003BF106 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		094B83B5199765FC003BF106 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		094B83B9199765FC003BF106 /* Cirqle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cirqle-Info.plist"; sourceTree = "<group>"; };
+		094B83BB199765FC003BF106 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		094B83BD199765FC003BF106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		094B83BF199765FC003BF106 /* Cirqle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cirqle-Prefix.pch"; sourceTree = "<group>"; };
+		094B83C0199765FC003BF106 /* PCHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHAppDelegate.h; sourceTree = "<group>"; };
+		094B83C1199765FC003BF106 /* PCHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCHAppDelegate.m; sourceTree = "<group>"; };
+		094B83C4199765FC003BF106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094B83C9199765FC003BF106 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		094B83CF199765FC003BF106 /* CirqleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirqleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		094B83D0199765FC003BF106 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		094B83D8199765FC003BF106 /* CirqleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CirqleTests-Info.plist"; sourceTree = "<group>"; };
+		094B83DA199765FC003BF106 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		094B83DC199765FC003BF106 /* CirqleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirqleTests.m; sourceTree = "<group>"; };
+		096BEAC8199804CC002CA7D3 /* ProximaNova-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Reg.ttf"; sourceTree = "<group>"; };
+		096BEACE1998055F002CA7D3 /* PCHFibonacciMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciMath.h; sourceTree = "<group>"; };
+		096BEACF1998055F002CA7D3 /* PCHFibonacciMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciMath.m; sourceTree = "<group>"; };
+		096BEAD01998055F002CA7D3 /* PCHFibonacciCell+Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PCHFibonacciCell+Math.h"; sourceTree = "<group>"; };
+		096BEAD11998055F002CA7D3 /* PCHFibonacciCell+Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PCHFibonacciCell+Math.m"; sourceTree = "<group>"; };
+		096BEAD21998055F002CA7D3 /* PCHFibonacciOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciOperation.h; sourceTree = "<group>"; };
+		096BEAD31998055F002CA7D3 /* PCHFibonacciOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciOperation.m; sourceTree = "<group>"; };
+		096BEAD8199805E9002CA7D3 /* PCHFibonacciLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciLayout.h; sourceTree = "<group>"; };
+		096BEAD9199805E9002CA7D3 /* PCHFibonacciLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciLayout.m; sourceTree = "<group>"; };
+		096BEADA199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciLayoutAttributes.h; sourceTree = "<group>"; };
+		096BEADB199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciLayoutAttributes.m; sourceTree = "<group>"; };
+		09FA6A361998062800C9D1E3 /* PCHFibonacciCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciCell.h; sourceTree = "<group>"; };
+		09FA6A371998062800C9D1E3 /* PCHFibonacciCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciCell.m; sourceTree = "<group>"; };
+		09FA6A381998062800C9D1E3 /* PCHFibonacciCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciCellModel.h; sourceTree = "<group>"; };
+		09FA6A391998062800C9D1E3 /* PCHFibonacciCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciCellModel.m; sourceTree = "<group>"; };
+		09FA6A3A1998062800C9D1E3 /* PCHSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHSearchCell.h; sourceTree = "<group>"; };
+		09FA6A3B1998062800C9D1E3 /* PCHSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHSearchCell.m; sourceTree = "<group>"; };
+		09FA6A3D1998062800C9D1E3 /* PCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHViewController.h; sourceTree = "<group>"; };
+		09FA6A3E1998062800C9D1E3 /* PCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHViewController.m; sourceTree = "<group>"; };
+		09FA6A431998260C00C9D1E3 /* PCHFibonacciOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFibonacciOperationQueue.h; sourceTree = "<group>"; };
+		09FA6A441998260C00C9D1E3 /* PCHFibonacciOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHFibonacciOperationQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094B83AB199765FC003BF106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094B83B4199765FC003BF106 /* CoreGraphics.framework in Frameworks */,
+				094B83B6199765FC003BF106 /* UIKit.framework in Frameworks */,
+				094B83B2199765FC003BF106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094B83CC199765FC003BF106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094B83D1199765FC003BF106 /* XCTest.framework in Frameworks */,
+				094B83D3199765FC003BF106 /* UIKit.framework in Frameworks */,
+				094B83D2199765FC003BF106 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094B83A5199765FC003BF106 = {
+			isa = PBXGroup;
+			children = (
+				094B83B7199765FC003BF106 /* Cirqle */,
+				094B83D6199765FC003BF106 /* CirqleTests */,
+				094B83B0199765FC003BF106 /* Frameworks */,
+				094B83AF199765FC003BF106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		094B83AF199765FC003BF106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094B83AE199765FC003BF106 /* Cirqle.app */,
+				094B83CF199765FC003BF106 /* CirqleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094B83B0199765FC003BF106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094B83B1199765FC003BF106 /* Foundation.framework */,
+				094B83B3199765FC003BF106 /* CoreGraphics.framework */,
+				094B83B5199765FC003BF106 /* UIKit.framework */,
+				094B83D0199765FC003BF106 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		094B83B7199765FC003BF106 /* Cirqle */ = {
+			isa = PBXGroup;
+			children = (
+				094B83C0199765FC003BF106 /* PCHAppDelegate.h */,
+				094B83C1199765FC003BF106 /* PCHAppDelegate.m */,
+				094B83C3199765FC003BF106 /* Main.storyboard */,
+				09FA6A351998062800C9D1E3 /* Cells */,
+				09FA6A3C1998062800C9D1E3 /* Controllers */,
+				096BEAD7199805E9002CA7D3 /* Layout */,
+				096BEACD1998055F002CA7D3 /* Math */,
+				094B83C9199765FC003BF106 /* Images.xcassets */,
+				096BEAC7199804CC002CA7D3 /* Resources */,
+				094B83B8199765FC003BF106 /* Supporting Files */,
+			);
+			path = Cirqle;
+			sourceTree = "<group>";
+		};
+		094B83B8199765FC003BF106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094B83B9199765FC003BF106 /* Cirqle-Info.plist */,
+				094B83BA199765FC003BF106 /* InfoPlist.strings */,
+				094B83BD199765FC003BF106 /* main.m */,
+				094B83BF199765FC003BF106 /* Cirqle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		094B83D6199765FC003BF106 /* CirqleTests */ = {
+			isa = PBXGroup;
+			children = (
+				094B83DC199765FC003BF106 /* CirqleTests.m */,
+				094B83D7199765FC003BF106 /* Supporting Files */,
+			);
+			path = CirqleTests;
+			sourceTree = "<group>";
+		};
+		094B83D7199765FC003BF106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				094B83D8199765FC003BF106 /* CirqleTests-Info.plist */,
+				094B83D9199765FC003BF106 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		096BEAC7199804CC002CA7D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				096BEAC8199804CC002CA7D3 /* ProximaNova-Reg.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		096BEACD1998055F002CA7D3 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				096BEACE1998055F002CA7D3 /* PCHFibonacciMath.h */,
+				096BEACF1998055F002CA7D3 /* PCHFibonacciMath.m */,
+				096BEAD01998055F002CA7D3 /* PCHFibonacciCell+Math.h */,
+				096BEAD11998055F002CA7D3 /* PCHFibonacciCell+Math.m */,
+				096BEAD21998055F002CA7D3 /* PCHFibonacciOperation.h */,
+				096BEAD31998055F002CA7D3 /* PCHFibonacciOperation.m */,
+				09FA6A431998260C00C9D1E3 /* PCHFibonacciOperationQueue.h */,
+				09FA6A441998260C00C9D1E3 /* PCHFibonacciOperationQueue.m */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		096BEAD7199805E9002CA7D3 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				096BEAD8199805E9002CA7D3 /* PCHFibonacciLayout.h */,
+				096BEAD9199805E9002CA7D3 /* PCHFibonacciLayout.m */,
+				096BEADA199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.h */,
+				096BEADB199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		09FA6A351998062800C9D1E3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				09FA6A361998062800C9D1E3 /* PCHFibonacciCell.h */,
+				09FA6A371998062800C9D1E3 /* PCHFibonacciCell.m */,
+				09FA6A381998062800C9D1E3 /* PCHFibonacciCellModel.h */,
+				09FA6A391998062800C9D1E3 /* PCHFibonacciCellModel.m */,
+				09FA6A3A1998062800C9D1E3 /* PCHSearchCell.h */,
+				09FA6A3B1998062800C9D1E3 /* PCHSearchCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		09FA6A3C1998062800C9D1E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09FA6A3D1998062800C9D1E3 /* PCHViewController.h */,
+				09FA6A3E1998062800C9D1E3 /* PCHViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094B83AD199765FC003BF106 /* Cirqle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094B83E0199765FC003BF106 /* Build configuration list for PBXNativeTarget "Cirqle" */;
+			buildPhases = (
+				094B83AA199765FC003BF106 /* Sources */,
+				094B83AB199765FC003BF106 /* Frameworks */,
+				094B83AC199765FC003BF106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cirqle;
+			productName = Cirqle;
+			productReference = 094B83AE199765FC003BF106 /* Cirqle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		094B83CE199765FC003BF106 /* CirqleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094B83E3199765FC003BF106 /* Build configuration list for PBXNativeTarget "CirqleTests" */;
+			buildPhases = (
+				094B83CB199765FC003BF106 /* Sources */,
+				094B83CC199765FC003BF106 /* Frameworks */,
+				094B83CD199765FC003BF106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094B83D5199765FC003BF106 /* PBXTargetDependency */,
+			);
+			name = CirqleTests;
+			productName = CirqleTests;
+			productReference = 094B83CF199765FC003BF106 /* CirqleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094B83A6199765FC003BF106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PCH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ilya Puchka";
+				TargetAttributes = {
+					094B83CE199765FC003BF106 = {
+						TestTargetID = 094B83AD199765FC003BF106;
+					};
+				};
+			};
+			buildConfigurationList = 094B83A9199765FC003BF106 /* Build configuration list for PBXProject "Cirqle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094B83A5199765FC003BF106;
+			productRefGroup = 094B83AF199765FC003BF106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094B83AD199765FC003BF106 /* Cirqle */,
+				094B83CE199765FC003BF106 /* CirqleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094B83AC199765FC003BF106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094B83CA199765FC003BF106 /* Images.xcassets in Resources */,
+				094B83BC199765FC003BF106 /* InfoPlist.strings in Resources */,
+				096BEAC9199804CC002CA7D3 /* ProximaNova-Reg.ttf in Resources */,
+				094B83C5199765FC003BF106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094B83CD199765FC003BF106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094B83DB199765FC003BF106 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094B83AA199765FC003BF106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FA6A401998062800C9D1E3 /* PCHFibonacciCellModel.m in Sources */,
+				09FA6A421998062800C9D1E3 /* PCHViewController.m in Sources */,
+				09FA6A451998260C00C9D1E3 /* PCHFibonacciOperationQueue.m in Sources */,
+				096BEAD51998055F002CA7D3 /* PCHFibonacciCell+Math.m in Sources */,
+				096BEAD61998055F002CA7D3 /* PCHFibonacciOperation.m in Sources */,
+				094B83C2199765FC003BF106 /* PCHAppDelegate.m in Sources */,
+				094B83BE199765FC003BF106 /* main.m in Sources */,
+				09FA6A411998062800C9D1E3 /* PCHSearchCell.m in Sources */,
+				096BEADD199805E9002CA7D3 /* PCHFibonacciLayoutAttributes.m in Sources */,
+				096BEAD41998055F002CA7D3 /* PCHFibonacciMath.m in Sources */,
+				09FA6A3F1998062800C9D1E3 /* PCHFibonacciCell.m in Sources */,
+				096BEADC199805E9002CA7D3 /* PCHFibonacciLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094B83CB199765FC003BF106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094B83DD199765FC003BF106 /* CirqleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094B83D5199765FC003BF106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094B83AD199765FC003BF106 /* Cirqle */;
+			targetProxy = 094B83D4199765FC003BF106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		094B83BA199765FC003BF106 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094B83BB199765FC003BF106 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		094B83C3199765FC003BF106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094B83C4199765FC003BF106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094B83D9199765FC003BF106 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094B83DA199765FC003BF106 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094B83DE199765FC003BF106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		094B83DF199765FC003BF106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094B83E1199765FC003BF106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cirqle/Cirqle-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Cirqle/Cirqle-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		094B83E2199765FC003BF106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cirqle/Cirqle-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "Cirqle/Cirqle-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		094B83E4199765FC003BF106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cirqle.app/Cirqle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cirqle/Cirqle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CirqleTests/CirqleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		094B83E5199765FC003BF106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cirqle.app/Cirqle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cirqle/Cirqle-Prefix.pch";
+				INFOPLIST_FILE = "CirqleTests/CirqleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094B83A9199765FC003BF106 /* Build configuration list for PBXProject "Cirqle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094B83DE199765FC003BF106 /* Debug */,
+				094B83DF199765FC003BF106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094B83E0199765FC003BF106 /* Build configuration list for PBXNativeTarget "Cirqle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094B83E1199765FC003BF106 /* Debug */,
+				094B83E2199765FC003BF106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094B83E3199765FC003BF106 /* Build configuration list for PBXNativeTarget "CirqleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094B83E4199765FC003BF106 /* Debug */,
+				094B83E5199765FC003BF106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094B83A6199765FC003BF106 /* Project object */;
+}
